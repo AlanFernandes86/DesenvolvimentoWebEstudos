@@ -1,0 +1,38 @@
+nav{
+    width: 17%;
+    min-height: 30em;
+    height: max-content;
+    margin: 0.5%;
+    padding: 1%;
+    background-color:whitesmoke;
+    float: left;
+}
+
+/* unvisited link */
+nav a:link {
+    color:black;
+    text-decoration: none;
+}
+  
+  /* visited link */
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+  
+  /* mouse over link */
+nav a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+  
+  /* selected link */
+nav a:active {
+    color:crimson;
+    text-decoration: none;
+}
+
+nav a.selected{
+    color:crimson;
+    text-decoration: none;
+}

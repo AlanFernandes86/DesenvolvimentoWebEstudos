@@ -1,5 +1,12 @@
 # 1. Desenvolvimento Web :books: Estudos
 
+- usar git clone "repo_url" 
+  para baixar o repositório
+- npm install
+  para instalar as dependências
+- npm start
+  para iniciar o servidor local e chamar o index.html
+
 ## 1.1. Estudos </HTML 5> 
 
 - Estrutura básica
@@ -105,7 +112,7 @@
     - Bulma
     - Skeleton
 
-## 1.3. Javascript(){}
+## 1.3. Estudos Javascript(){}
 ### 1.3.1. DOM
 ### 1.3.2. Javascript no HTML
   - Diretamente no corpo da página
@@ -128,22 +135,21 @@
   - Inteiros
   - Objeto literal
   - String literal
-
-  - Funções
-  - Estruturas de decisão
-    - if / else
-    - switch
-  - Operadores
-    - Operadores de atribuição
-    - Operadores de comparação
-    - Operadores aritméticos
-    - Operadores bit a bit
-    - Operadores lógicos
-    - Operadores de string
-    - Operador condicional (ternário)
-    - Operador vírgula
-    - Operadores unário
-    - Operadores relacionais
+### 1.3.8. Funções
+### 1.3.9. Estruturas de decisão
+  - if / else
+  - switch
+### 1.3.10. Operadores
+  - Operadores de atribuição
+  - Operadores de comparação
+  - Operadores aritméticos
+  - Operadores bit a bit
+  - Operadores lógicos
+  - Operadores de string
+  - Operador condicional (ternário)
+  - Operador vírgula
+  - Operadores unário
+  - Operadores relacionais
   
 
   

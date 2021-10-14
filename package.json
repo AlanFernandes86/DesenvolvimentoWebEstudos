@@ -1,0 +1,23 @@
+{
+  "name": "desenvolvimentoWeb",
+  "version": "1.0.0",
+  "description": "- Estrutura básica\r - Listas\r - Tags semânticas\r - Audio e Video\r - Tables\r - Form",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanFernandes86/DesenvolvimentoWebEstudos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanFernandes86/DesenvolvimentoWebEstudos/issues"
+  },
+  "homepage": "https://github.com/AlanFernandes86/DesenvolvimentoWebEstudos#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

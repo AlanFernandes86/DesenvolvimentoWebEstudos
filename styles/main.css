@@ -1,0 +1,29 @@
+main{
+    width: 59%;
+    margin: 0.5%;
+    min-height: 30em;
+    padding: 2%;
+    height: fit-content;
+    background-color:whitesmoke;
+    float: left;
+}
+
+main h2{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 2em;
+    padding-bottom: 0px;
+}
+
+main h2:first-of-type{
+    margin-top: 0px;
+}
+
+main section {
+    padding: 1em;
+    margin-top: 0px;
+}
+
+main hr{
+    margin-bottom: 1em;
+}

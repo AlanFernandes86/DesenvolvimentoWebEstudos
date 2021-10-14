@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang='pt-BR'>
 <head>
+    <script src="../../index.js" type="text/javascript"></script>
 <link rel='stylesheet' type='text/css' href='../../index.css'>
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Listas</title>
 </head>
-<body>
-<header>
-    <h1>123Testando</h1>
-</header>
+<body onload="init()">
+<header></header>
 <nav></nav>
 <main>
     <section>
-        <!-- Estilo inline
-        Possui precedência sobre todos os estilos -->
-        <h2 style="background-color: brown; color: aquamarine;">Lista Ordenada</h2>
+        <h2>Lista Ordenada</h2>
+        <hr>
         <ol>
             <li>Arroz</li>
             <li>Feijão</li>
@@ -24,12 +22,8 @@
         </ol>
     </section>
     <section>
-        <!-- seletores de id > class > tag
-        1º id
-        2º class
-        3º tag
-        -->
-        <h2 class="h2_especifico">Lista Não Ordenada</h2>
+        <h2>Lista Não Ordenada</h2>
+        <hr>
         <ul>
             <li>Água</li>
             <li>Sucos</li>
@@ -37,7 +31,8 @@
         </ul>
     </section>
     <section>
-        <h2 class="h2_especifico" id="h2_mais_especifico">Lista de Definição</h2>
+        <h2>Lista de Definição</h2>
+        <hr>
         <dl>
             <dt>Arroz</dt>
                 <dd>Parborizado</dd>
