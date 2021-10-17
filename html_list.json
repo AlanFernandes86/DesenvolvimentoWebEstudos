@@ -1,21 +1,21 @@
 {   "index": {"uri": "index.html", "title": "Página Inicial"},
     "html5": [
-        {"uri": "html/html5/audio_video.html", "title": "Áudio e Vídeo"},
         {"uri": "html/html5/estrutura_basica.html", "title": "Estrutura Básica"},
-        {"uri": "html/html5/formulario.html", "title": "Formulário"},
         {"uri": "html/html5/listas.html", "title": "Listas"},
-        {"uri": "html/html5/tabelas.html", "title": "Tabelas"}
+        {"uri": "html/html5/tabelas.html", "title": "Tabelas"},
+        {"uri": "html/html5/formulario.html", "title": "Formulário"},
+        {"uri": "html/html5/audio_video.html", "title": "Áudio e Vídeo"}
       ],
     "css3": [
+        {"uri": "html/css3/sintaxe_e_elementos.html", "title": "Sintaxe e Elementos"},
         {"uri": "html/css3/abreviaturas_e_atalhos.html", "title": "Abreviaturas e Atalhos"},
         {"uri": "html/css3/box_model.html", "title": "Box Model"},
         {"uri": "html/css3/cores.html", "title": "Cores"},
         {"uri": "html/css3/layouts_colunas_e_grid.html", "title": "Layouts, Colunas e Grid"},
         {"uri": "html/css3/pseudo-classes_e_elementos.html", "title": "Pseudo-Classes e Pseudo-Elementos"},
-        {"uri": "html/css3/sintaxe_e_elementos.html", "title": "Sintaxe e Elementos"},
         {"uri": "html/css3/textos.html", "title": "Textos"}
       ],
-      "javascript": [
-
+    "javascript": [
+        {"uri": "html/javascript/sintaxe.html", "title": "Sintaxe"}
       ]
 }

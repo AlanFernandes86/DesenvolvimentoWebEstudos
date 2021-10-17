@@ -1,9 +1,8 @@
 main{
-    width: 59%;
+    width: 49%;
     margin: 0.5%;
-    min-height: 30em;
+    height: 100%;
     padding: 2%;
-    height: fit-content;
     background-color:whitesmoke;
     float: left;
 }
@@ -26,4 +25,8 @@ main section {
 
 main hr{
     margin-bottom: 1em;
+}
+
+main pre {
+    background-color: white;
 }

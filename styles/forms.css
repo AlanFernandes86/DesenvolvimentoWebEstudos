@@ -1,0 +1,73 @@
+input, select, textarea, button, fieldset{
+    border-radius: 4px;
+}
+
+form{
+    margin-top: 4%;
+}
+
+fieldset{
+    margin-bottom: 1em;
+    width: 94%;
+    padding: 2%;
+    border: 1;
+}
+
+legend{
+    text-transform: uppercase;
+}
+
+label{
+    margin-left: 0.5em;
+}
+
+label[for="tipo_msg"]{
+    margin-left: 0px;
+}
+
+input{
+    margin-bottom: 2em;
+}
+
+input[type="text"], input[type="select"]{
+    height: 1.5em;
+}
+
+textarea{
+    width: 80%;
+}
+
+#logradouro_endereco{
+    width: 50%;
+}
+
+#numero_endereco{
+    width: 10%;
+}
+
+#complemento_endereco{
+    width: 50%;
+}
+
+button{
+    padding: 1em;
+    margin: 0em 1em 0em 1em;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+button:active{
+    padding: 0.9em;
+}
+
+button[type="reset"]{
+    color: black;
+    background-color: white;
+}
+
+.fieldset_buttons{
+    text-align: right;
+    border: 0;
+}
+

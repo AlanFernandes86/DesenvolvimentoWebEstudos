@@ -13,10 +13,9 @@
 <nav></nav>
 <main>
     <section>
-        <h2>Formulários</h2>
+        <h2>Formulário</h2>
         <hr>
         <form action="#" method="post">
-
             <fieldset>
                 <legend>Dados gerais</legend>
 
@@ -26,6 +25,8 @@
                 <label for="data_nascimento">Data de Nascimento</label>
                 <input type="text" name="data_nascimento" id="data_nascimento">
                 
+                <br>
+
                 <label for="cpf">CPF</label>
                 <input type="text" name="cpf" id="cpf" minlength="12" maxlength="12" required pattern="[0-9]{9}-[0-9]{2}">
                 
@@ -34,7 +35,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Endereço:</legend>    
+                <legend>Endereço</legend>    
                 
                 <label for="tipo_endereço">Tipo:</label>
                 <select name="tipo_endereço" id="tipo_endereço">
@@ -47,6 +48,8 @@
 
                 <label for="logradouro_endereco">Logradouro:</label>
                 <input type="text" name="logradouro_endereco" id="logradouro_endereco">
+                
+                <br>
 
                 <label for="numero_endereco">Número:</label>
                 <input type="text" name="numero_endereco" id="numero_endereco">
@@ -67,19 +70,20 @@
                 <input type="radio" name="tipo_msg" id="tipo_msg" value="Elogio">
                 <label for="tipo_msg">Elogio</label>
 
-                <label for="msg">Mensagem:</label>
-                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                <br>
+
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem..."></textarea>
             </fieldset>
 
-            <fieldset>
-                <button type="submit">Enviar sua mensagem</button>
+            <fieldset class="fieldset_buttons">
                 <button type="reset">Limpar formulário</button>
+                <button type="submit">Enviar sua mensagem</button>                
             </fieldset>
 
         </form>
     </section>
 </main>
-<aside></aside>
+<aside><textarea readonly id="aside_text_area"></textarea></aside>
 <footer></footer>
 </body>
 </html>
