@@ -36,7 +36,7 @@
 				"<main>",
 				"\t<section></section>",
 				"</main>",
-				"<aside><textarea readonly id='aside_text_area'></aside>",
+				"<aside><textarea readonly id='aside_text_area'></textarea></aside>",
 				"<footer></footer>",
 				"</body>",
 				"</html>",

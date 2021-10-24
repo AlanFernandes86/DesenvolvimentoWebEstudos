@@ -13,41 +13,37 @@
 <nav></nav>
 <main>
 <section>
-<style type="text/css" scoped>
-    h4 {
+<style type="text/css" scoped="true">
+    :root{
+    --cor-rosa: rgb(218, 18, 184);
+    }
+
+    h2 {
     color: red;
     font-style: italic;
     }
+
     .azul{
     color: blue;
     }
+    
     #verde{
     color: green;
     }
-</style>
-<h4>CSS3 H4 STYLE COM SELETOR DE TIPO</h4>
-<h4 class="azul">CSS3 H4 STYLE COM SELETOR CLASS</h4>
-<h4 id="verde">CSS3 H4 STYLE COM SELETOR ID</h4>
     
-<pre>
-<code>
-h4 {
-color: red;
-font-style: italic;
-}
-.azul{
-color: blue;
-}
-#verde{
-color: green;
-}
-</code>
-</pre>
+    .rosa-personalizado{
+    color: var(--cor-rosa);
+    }
+</style>
 
+<h2>CSS3 H4 STYLE COM SELETOR DE TIPO</h4>
+<h2 class="azul">CSS3 H4 STYLE COM SELETOR CLASS</h4>
+<h2 id="verde">CSS3 H4 STYLE COM SELETOR ID</h4>
+<h2 class="rosa-personalizado">USANDO VARIAVEL CSS</h4> 
 
 </section>
 </main>
-<aside></aside>
+<aside><textarea readonly id="aside_text_area"></textarea></aside>
 <footer></footer>
 </body>
 </html>

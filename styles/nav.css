@@ -1,5 +1,5 @@
 nav{
-    width: 17%;
+    width: var(--nav-widht);
     margin: 0.5%;
     padding: 1%;
     background-color:whitesmoke;

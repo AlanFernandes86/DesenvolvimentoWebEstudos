@@ -1,5 +1,5 @@
 header{
-    width: 99%;
+    width: var(--header-widht);
     height: 10em;
     margin: 0.5%;
     background-color: cyan;

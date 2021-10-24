@@ -1,3 +1,11 @@
+:root{
+    --header-widht: 99%;
+    --nav-widht: 17%;
+    --main-widht: 49%;
+    --aside-widht: 25%;
+    --footer-widht: 99%;
+    --main-widht-without-aside: calc(var(--main-widht) + var(--aside-widht) + 1%);
+}
 
 html{
     padding: 0;
